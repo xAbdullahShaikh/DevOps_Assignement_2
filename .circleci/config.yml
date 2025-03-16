@@ -3,7 +3,7 @@ jobs:
   build:
     working_directory: /go/src/github.com/xAbdullahShaikh/invoicer
     docker:
-      - image: circleci/golang:1.18
+      - image: golang:1.18
     branches:
       only:
         - master
